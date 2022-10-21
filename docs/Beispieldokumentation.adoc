@@ -3,6 +3,8 @@ Vorname Nachname <email>
 1.0, 01.09.2019
 :toc:
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: rouge
+:imagesdir: images
 // Platzhalter für weitere Dokumenten-Attribute
 
 == Einführung
@@ -14,7 +16,71 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 === Listen
 
 .Beispiel: unsortierte Liste
-// Platzhalter
+* Test
+** Test 2
 
 .Beispiel: sortierte Liste
-// Platzhalter
+. Test
+. test 2
+.. Test 3
+... Test 4
+
+.Beispiel : .<Checkliste>
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* [ ] not checked
+* normal list item
+
+=== Tabellen und Textformatierung
+.Formatierung von Text
+|===
+|Formatierung |Syntax  |Beschreibung
+// nach Rows
+|*bold*
+|+*bold*+
+|fetter text
+
+|_italic_
+|+_italic_+
+|kursiv
+
+|`monospace`
+|+`monospace`+
+|Text mit fester Laufweite
+
+|*_bolditalic_*
+|+*_bolditalic_*+
+|kombiniert
+
+|**bold**__italic__
+|+**bold**__italic__+
+|Frmatierung innerhalb eines Wortes
+|===
+
+*S* _o_ ftw _a_ r _e_ *E* ngin _ee_ `ring`
+
+=== Quellcode
+.hello_world.c
+[source, C ]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+----
+=== Bilder
+image::zane.jpg[Statue]
+
+=== Verweise
+
+
+=== Includes
+.hello_world.c
+include: :docs\hello_world.c[]
+
+
+
