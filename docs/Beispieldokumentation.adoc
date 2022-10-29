@@ -79,8 +79,7 @@ image::zane.jpg[Statue]
 
 
 === Includes
-.hello_world.c
-include::
+
 
 
 
