@@ -3,7 +3,7 @@ Vorname Nachname <email>
 1.0, 01.09.2019
 :toc:
 :toc-title: Inhaltsverzeichnis
-:source-highlighter: rouge
+:source-highlighter: highlight.js
 :imagesdir: images
 // Platzhalter für weitere Dokumenten-Attribute
 
@@ -46,7 +46,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |kursiv
 
 |`monospace`
-|+`monospace`+
+|+``monospace``+
 |Text mit fester Laufweite
 
 |*_bolditalic_*
@@ -55,10 +55,10 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 |**bold**__italic__
 |+**bold**__italic__+
-|Frmatierung innerhalb eines Wortes
+|Fromatierung innerhalb eines Wortes
 |===
 
-*S* _o_ ftw _a_ r _e_ *E* ngin _ee_ `ring`
+**S**__o__ftw__a__r__e__**E**ngin__ee__``ring``
 
 === Quellcode
 .hello_world.c
@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
 }
 ----
 === Bilder
-image::zane.jpg[Statue]
+image::sc.png[screenshot]
 
 === Verweise
 
