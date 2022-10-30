@@ -13,6 +13,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
 
+[#listen]
 === Listen
 
 .Beispiel: unsortierte Liste
@@ -32,6 +33,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 * [ ] not checked
 * normal list item
 
+[#tabellen]
 === Tabellen und Textformatierung
 .Formatierung von Text
 |===
@@ -60,6 +62,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 **S**__o__ftw__a__r__e__**E**ngin__ee__``ring``
 
+[#code]
 === Quellcode
 .hello_world.c
 [source, C ]
@@ -76,9 +79,13 @@ int main(int argc, char* argv[])
 image::sc.png[screenshot]
 
 === Verweise
+Hallo,bitte schaue dir die <<listen>> an.
+Hier findest Informationen zur Formatierung von <<tabellen>>.
+Schaue dir das Codebeispiel an: <<code>>.
 
 
 === Includes
+include::hello_world.c[lines=3..4]
 
 
 
