@@ -85,8 +85,9 @@ Schaue dir das Codebeispiel an: <<code>>.
 
 
 === Includes
-include::hello_world.c[lines=3..4]
-
+----
+include::hello_world.c[lines=1..4]
+----
 
 
 
